@@ -2,11 +2,11 @@
 BancoSinistro é a aplicação Web desenvolvida em java escolhida para o trabalho da disciplina de Qualidade e Teste, ministrada pela professoa Vânia Neves no Instituto de Computação da Universidade Federal Fluminense, durante o período 1º/2022.
 
 Integrantes:
-Alexandre Calmon
-Akissel
-Lucas Pimenta
-Lucas Couto
-Philippe Simões
+Alexandre Calmon;
+Akissel;
+Lucas Pimenta;
+Lucas Couto;
+Philippe Simões;
 
 ## Requisitos do trabalho:
 
