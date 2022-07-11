@@ -14,7 +14,7 @@
             <div class="container container-texto">
                 <br>
                 <div class="container container-home centralizar">
-                    <div class="d-flex flex-row justify-content-center align-items-center">
+                    <div class="d-flex flex-row justify-content-center align-items-center" id="successMessage">
                         <h2>Movimentação realizada com sucesso!</h2>
                     </div>
                     <hr>

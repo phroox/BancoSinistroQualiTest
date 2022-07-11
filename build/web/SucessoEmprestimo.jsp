@@ -5,7 +5,7 @@
 <html lang="pt-br">
     <head>
         <%@include file="header.html" %>
-        <title>Movimentação realizada com sucesso!</title>
+        <title>Empréstimo realizado com sucesso!</title>
     </head>
     <body>
         <%@include file="headerUsuario.html" %>
@@ -15,11 +15,11 @@
                 <br>
                 <div class="container container-home centralizar">
                     <div class="d-flex flex-row justify-content-center align-items-center" id="successMessage">
-                        <h2>Movimentação realizada com sucesso!</h2>
+                        <h2>Empréstimo realizado com sucesso!</h2>
                     </div>
                     <hr>
-                    <a href="/BancoSinistro/homeUsuario.jsp" class="btn btn-primary btn">Voltar à página principal</a>
-                    <a href="/BancoSinistro/CadastroMovimento.jsp" class="btn btn-primary btn">Realizar nova movimentação</a>
+                    <a href="/BancoSinistroQualiTest-master/homeUsuario.jsp" class="btn btn-primary btn" id="return">Voltar à página principal</a>
+                    <a href="/BancoSinistroQualiTest-master/RegistrarEmprestimo.jsp" class="btn btn-primary btn">Registrar novamente</a>
                 </div>
             </div>
         </div>

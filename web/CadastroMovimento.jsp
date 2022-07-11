@@ -62,7 +62,7 @@
                         
                         <div class="form-group mb-2">
                             <label for="valor">Valor:</label>
-                            <input type="number" class="form-control"  name="valor" required="required" step=".01" placeholder="">
+                            <input type="number" class="form-control" id="value" name="valor" required="required" step=".01" placeholder="">
                             <span style="font-size: 0.8rem;">Ex: 120,90</span>
                         </div>
                         
@@ -77,7 +77,7 @@
                         
                         <div class="form-group mb-2">
                             <label for="data">Data:</label>
-                            <input type="date" class="form-control"  name="data" required="required" placeholder="">
+                            <input type="date" class="form-control" id="date" name="data" required="required" placeholder="">
                         </div>
                         
                         <div class="form-group mb-4">
@@ -87,7 +87,7 @@
                         </div>
                         
                         <div class="d-flex flex-row justify-content-center align-items-center">
-                            <button type="submit" class="btn btn-primary" style="background-color: green;">Confirmar</button>
+                            <button type="submit" id="registerData" class="btn btn-primary" style="background-color: green;">Confirmar</button>
                         </div>
                     </form>         
                 </div>

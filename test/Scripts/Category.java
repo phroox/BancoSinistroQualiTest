@@ -1,5 +1,7 @@
 package Scripts;
 
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 import static junit.framework.Assert.assertEquals;
 import org.junit.Test;
@@ -35,7 +37,13 @@ public class Category {
        driver.findElement(By.id("createCategory")).click();
        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
        Thread.sleep(2000);
-       driver.findElement(By.id("description")).sendKeys("gatonet");
+        Random random = new Random();
+       int min_val_cpf = 100;
+       int max_val_cpf  = 999;
+       ThreadLocalRandom tlr = ThreadLocalRandom.current();
+       int number = tlr.nextInt(min_val_cpf, max_val_cpf + 1);
+       String numberString =  String.valueOf(number);
+       driver.findElement(By.id("description")).sendKeys("Contas "+numberString);
        Thread.sleep(2000);
        driver.findElement(By.id("saveCategory")).click();
        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);

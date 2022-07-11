@@ -16,7 +16,7 @@
                 <br>
                 
                 <div class="container container-home centralizar">
-                    <div class="d-flex flex-row justify-content-center align-items-center mt-5 mb-3">
+                    <div class="d-flex flex-row justify-content-center align-items-center mt-5 mb-3" id="welcomeMessage">
                         <h1>Bem-vindo(a), ${nome}!</h1>
                     </div>
                     <% 
@@ -38,8 +38,8 @@
                     }
                     %>
                     <hr><h4>CADASTRAR</h4><hr>
-                    <a href="CadastroConta.jsp" class="btn btn-primary btn mb-2">Cadastrar Conta</a>
-                    <a href="CadastroMovimento.jsp" class="btn btn-primary btn mb-2">Cadastrar Movimento</a>
+                    <a href="CadastroConta.jsp" class="btn btn-primary btn mb-2" id="createBankAccount">Cadastrar Conta</a>
+                    <a href="CadastroMovimento.jsp" class="btn btn-primary btn mb-2" id="createAccountData">Cadastrar Movimento</a>
                     <a href="RealizarEmprestimo.jsp" class="btn btn-primary btn mb-2">Realizar Empréstimo</a>
                     
                     <hr><h4>EDITAR</h4><hr>

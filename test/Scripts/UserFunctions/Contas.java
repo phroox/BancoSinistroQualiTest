@@ -30,7 +30,7 @@ public class Contas {
        String loginResponse = driver.findElement(By.id("welcomeMessage")).getText();
        
        //Cadastrar conta e visualizar a mesma na lista
-        driver.findElement(By.id("createBankAccounts")).click();
+        driver.findElement(By.id("createBankAccount")).click();
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         
         driver.findElement(By.id("accountName")).sendKeys("Conta Nubank");
@@ -62,6 +62,7 @@ public class Contas {
         
         //Captura a mensagem de sucesso
        String response = driver.findElement(By.id("successMessage")).getText();
+       driver.close();
        
        assertEquals(loginResponse,"Bem-vindo(a), leo!");
        assertEquals(response,"Conta registrada com sucesso!");
