@@ -2,6 +2,7 @@ package model;
 
 import app.Categoria;
 import app.Conta;
+import app.Emprestimo;
 import app.Lancamento;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -161,6 +162,24 @@ public class UsuarioDAO extends HttpServlet {
             ps.setString(5, lancamento.getData());
             ps.setString(6, lancamento.getDescricao());
 
+            ps.execute();
+
+            return true;
+        }
+        catch( SQLException e ) {
+            logger.log(Level.WARNING, erroSQL, e.getMessage());
+            return false;
+        }
+    }
+    
+        public boolean cadastrarEmprestimo(Emprestimo emprestimo) throws SQLException {
+        String sql = "INSERT INTO lancamentos (id_conta, valor, operacao) VALUES (?,?,?)";
+
+        try (PreparedStatement ps = conexao.prepareStatement(sql)){
+            ps.setInt(1, emprestimo.getIdConta());
+            ps.setFloat(2, emprestimo.getValor());
+            ps.setString(3, emprestimo.getOperacao());
+            
             ps.execute();
 
             return true;

@@ -46,6 +46,12 @@
                             <input type="number" class="form-control"  name="valor" required="required" step=".01" placeholder="">
                             <span style="font-size: 0.8rem;">Ex: 120,90</span>
                         </div>
+                            
+                        <div class="form-group  mb-2" hidden>
+                            <label for="operacao" hidden></label>
+                            <input type="text" id="operacao" value="C" name="operacao" required="required">
+                             
+                        </div>
                         
                         <div class="d-flex flex-row justify-content-center align-items-center">
                             <button type="submit" class="btn btn-primary" id="saveAccount" style="background-color: green;">Confirmar</button>

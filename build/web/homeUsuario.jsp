@@ -16,7 +16,7 @@
                 <br>
                 
                 <div class="container container-home centralizar">
-                    <div class="d-flex flex-row justify-content-center align-items-center mt-5 mb-3" id="welcomeMessage">
+                    <div class="d-flex flex-row justify-content-center align-items-center mt-5 mb-3">
                         <h1>Bem-vindo(a), ${nome}!</h1>
                     </div>
                     <% 
@@ -38,8 +38,9 @@
                     }
                     %>
                     <hr><h4>CADASTRAR</h4><hr>
-                    <a href="CadastroConta.jsp" class="btn btn-primary btn mb-2" id="createBankAccounts">Cadastrar Conta</a>
+                    <a href="CadastroConta.jsp" class="btn btn-primary btn mb-2">Cadastrar Conta</a>
                     <a href="CadastroMovimento.jsp" class="btn btn-primary btn mb-2">Cadastrar Movimento</a>
+                    <a href="RealizarEmprestimo.jsp" class="btn btn-primary btn mb-2">Realizar Empréstimo</a>
                     
                     <hr><h4>EDITAR</h4><hr>
                     <a href="EditarConta.jsp" class="btn btn-primary btn mb-2">Editar Conta</a>
@@ -48,7 +49,7 @@
                     <a href="ExcluirConta.jsp" class="btn btn-primary btn mb-2">Excluir Conta</a>
                     
                     <hr><h4>LISTAS</h4><hr>
-                    <a href="ListarContas.jsp" class="btn btn-primary btn mb-2" id="MyBankAccounts">Minhas Contas</a>
+                    <a href="ListarContas.jsp" class="btn btn-primary btn mb-2">Minhas Contas</a>
                     <a href="ListarLancamentos.jsp" class="btn btn-primary btn mb-2">Minhas movimentações</a>
                     <a href="ListarSaldosPorCategoria.jsp" class="btn btn-primary btn mb-2">Balancete das Contas</a>
                     <a href="ListarSaldosPorCategoriaTotal.jsp" class="btn btn-primary btn mb-2">Balancete Total</a>
