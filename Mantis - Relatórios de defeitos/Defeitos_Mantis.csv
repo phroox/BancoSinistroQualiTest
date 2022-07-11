@@ -1,0 +1,7 @@
+﻿Núm,Projeto,Relator,Atribuído a,Prioridade,Gravidade,Freqüência,Versão do Produto,Categoria,Data de Envio,SO,Versão SO,Plataforma,Visibilidade,Atualizado,Resumo,Estado,Resolução,Corrigido na Versão
+0000007,Projeto Mantis,administrator,administrator,normal,trivial,aleatório,,General,2022-07-11,,,,público,2022-07-11,"Diversos elementos do front-end não possuíam Id, dificultando realização de testes com Selenium",resolvido,corrigido,
+0000006,Projeto Mantis,administrator,administrator,normal,grande,não se tentou,,General,2022-07-11,,,,público,2022-07-11,Suspensão de usuários inexistentes,resolvido,corrigido,
+0000005,Projeto Mantis,administrator,administrator,normal,grande,às vezes,,General,2022-07-11,,,,público,2022-07-11,Erro ao alterar dados de usuários/administradores/categorias/conta-corrente para dados já existentes,resolvido,corrigido,
+0000004,Projeto Mantis,administrator,administrator,alta,grande,às vezes,,General,2022-07-11,,,,público,2022-07-11,Erro ao tentar cadastrar usuários/administradores/categorias/conta-corrente com dados já existentes,resolvido,corrigido,
+0000003,Projeto Mantis,administrator,administrator,normal,grande,não se tentou,,General,2022-07-11,,,,público,2022-07-11,Exclusão de usuários/administradores/categorias/conta-corrente inexistentes,resolvido,corrigido,
+0000002,Projeto Mantis,administrator,administrator,normal,texto,às vezes,,General,2022-07-11,,,,público,2022-07-11,Tela de resultado da atividade realizada apresentando mensagem que não corresponde o que realmente ocorreu,resolvido,corrigido,
